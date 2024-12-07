@@ -1,0 +1,28 @@
+.container-contador {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 8px;
+}
+
+.container-contador h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.container-btns button {
+    padding: .5rem 1rem;
+    margin: 0 .5rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.container-btns button:hover {
+    opacity: 0.8;
+}
