@@ -6,7 +6,7 @@ const Contador = () => {
     const [contador, setContador] = useState(0);
 
     return (
-        <div className="container-contador">
+        <div className="container">
             <h1>Contador: {contador}</h1>
 
             <div className="container-btns">

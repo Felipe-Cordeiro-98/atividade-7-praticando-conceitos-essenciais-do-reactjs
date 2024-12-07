@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    width: 450px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 8px;
+}
+
+.container h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.container-btns button {
+    padding: .5rem 1rem;
+    margin: 0 .5rem;
+    border: 1px solid gray;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.container-btns button:hover {
+    opacity: 0.8;
+}
