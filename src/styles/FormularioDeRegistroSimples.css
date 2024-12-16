@@ -1,0 +1,16 @@
+.formulario-form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.formulario-form fieldset {
+    display: flex;
+    gap: 6px;
+    border: none;
+    margin: 5px 0;
+}
+
+.formulario-form fieldset input {
+    width: 100%;
+}

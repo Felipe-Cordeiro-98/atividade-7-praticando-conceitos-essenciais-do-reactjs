@@ -1,0 +1,23 @@
+button {
+  border: none;
+  border-radius: 6px;
+  padding: .3rem 1rem;
+  font-weight: bold;
+  color: #fff;
+  background: #0866ff;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:active {
+  background: #053f9c;
+}
+
+button:disabled {
+  background: #0867ff64;
+  cursor:default;
+  opacity: 1;
+}

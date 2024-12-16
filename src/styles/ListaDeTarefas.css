@@ -1,0 +1,49 @@
+.lista-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.lista-container-input, 
+.lista-container ul {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista-container-input h1 {
+    margin-bottom: 10px;
+}
+
+.lista-container-input > div {
+    display: flex;
+}
+
+.lista-container-input > div input {
+    width: 250px;
+}
+
+.lista-container ul {
+    height: 100%;
+}
+
+.lista-container ul li {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 0 3px 15px;
+    margin-bottom: 5px;
+    border: 1px solid #80808079;
+}
+
+.lista-container ul li > div {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.lista-container ul li button {
+    margin-right: 10px;
+}

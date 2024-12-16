@@ -1,0 +1,25 @@
+.galeria-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.galeria-img {
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.galeria-modal img {
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
+
+.galeria-modal > div {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 5px;
+}
